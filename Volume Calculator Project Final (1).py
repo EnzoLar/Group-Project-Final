@@ -71,6 +71,8 @@ if __name__ == '__main__':
                     print("\n")
 
         elif choice == "2":
+            # Handle the choice for Sphere
+                # Prompt the user for dimensions
                 radius = float(input('Please Enter the Radius of a Sphere: '))
                 Volume = (4 / 3) * PI * radius * radius * radius
                 print("\n The Volume of a Sphere is %.2f" %Volume)
@@ -91,6 +93,8 @@ if __name__ == '__main__':
                     print("\n")
                     
         elif choice == "3":
+            # Handle the choice for Cube
+                # Prompt the user for dimensions
 
             length = float(input('\nPlease Enter the length of a cube: '))
             Volume = length * length * length
@@ -112,6 +116,8 @@ if __name__ == '__main__':
                 print("\n")
                     
         elif choice == "4":
+            # Handle the choice for Cylinder
+                # Prompt the user for dimensions
 
                 radius = float(input('Please Enter the Radius of a Cylinder: '))
                 height = float(input('Please Enter the Height of a Cylinder: '))
@@ -135,6 +141,8 @@ if __name__ == '__main__':
                     print('\n')
                     
         elif choice == "5":
+            # Handle the choice for Rectangular Prism
+                # Prompt the user for dimensions
                 
                 l = float(input('Enter the length: '))
                 w = float(input('Enter the width: '))
@@ -161,6 +169,8 @@ if __name__ == '__main__':
                     print('\n')
                     
         elif choice == "6":
+            # Handle the choice for 3D Parallelogram
+                # Prompt the user for dimensions
 
                 base = float(input('Enter the length of base: '))
                 height = float(input('Enter the height: '))
@@ -186,6 +196,8 @@ if __name__ == '__main__':
                     print('\n')
                     
         elif choice == "7":
+            # Handle the choice for Rhombus
+                # Prompt the user for dimensions
 
                 d1 = float(input('Enter 1st diagonal: '))
                 d2 = float(input('Enter 2nd diagonal: '))
@@ -211,6 +223,8 @@ if __name__ == '__main__':
                     print('\n')
                     
         elif choice == "8":
+            # Handle the choice for Trapezium
+                # Prompt the user for dimensions
 
                 height = float(input("Height of trapezoid: "))
                 base_1 = float(input('Base one value: '))
@@ -239,7 +253,7 @@ if __name__ == '__main__':
 
         elif choice == "0":
             break
-
+        #Ends While True statement once 0 is selected
         else:
             print("Invalid input.  Please try again!\n")
 
